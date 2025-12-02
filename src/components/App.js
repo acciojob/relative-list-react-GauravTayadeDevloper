@@ -6,7 +6,7 @@ let relatives =["kaka","mama","kaku","mami","nani","nana"]
   return (
     <div id="main">
                {/* Do not remove the main div */}
-      <ol>
+      <ol key={"relativeList"}>
         {relatives.map((name,index)=>(
           <li key={"relativeList"+index.toString()}>
             {name}
